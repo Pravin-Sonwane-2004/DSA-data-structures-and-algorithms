@@ -14,7 +14,7 @@
 		Scanner sc = new Scanner(System.in);
 		int choice ;	
 		int a,b=0;
-		
+		int d = 1;
 			do{
 				
 					System.out.println("1. Square of a number");
@@ -24,27 +24,26 @@
 					System.out.println("Enter Choice : ");
 					choice = sc.nextInt();
 					
-					
+			int fact = 1;		
 			switch(choice) {
 				case 1:  System.out.println("Enter A Number: ");
 				a = sc.nextInt();
 				b= a*a;
-				System.out.println(b);
+				System.out.println(a +" square is : "+b);
 				break;
 				
 				case 2:   System.out.println("Enter The Number: ");
 				a = sc.nextInt();
-				b= a*a*a;
-				System.out.println(b);
+				d = a*a*a;
+				System.out.println(a + " cube is : "+d);
 				break;
 				
-				int fact =1;
 				case 3:   System.out.println("Enter The Number: ");
 					a = sc.nextInt();
 					for(int i=1;i<=a;i++) {
-						fact=fact*i;
+						fact = fact*i;
 					}
-					System.out.println(b);
+					System.out.println(a+ " factorial is : " +fact);
 				break;
 			}
 					

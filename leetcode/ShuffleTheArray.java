@@ -6,7 +6,7 @@
 // Input: nums = [1,2,3,4,4,3,2,1], n = 4
 // Output: [1,4,2,3,3,2,4,1]
 
-class Solution {
+class Solution11 {
     public int[] shuffle(int[] nums, int n) {
 		int [] newArr = new int[nums.length];
 		int j =0;
@@ -29,7 +29,7 @@ class Solution {
     }
 	
 	void main() {
-		 Solution obj = new Solution();
+		 Solution11 obj = new Solution11();
 	int [] nums = {2,5,1,3,4,7}; 
 	int n = 3;
 		 obj.shuffle(nums,n);

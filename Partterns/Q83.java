@@ -12,22 +12,18 @@ class Q83 {
 		char ch = 'A';
 		int num = 1;
 		for(int i=1;i<=5;i++) {
+			int k = -1;
+			
 			for(int j =1;j<=9;j++) {
 				if(((j>=i && j<=10-i) && i<=3) || (i>3 && ( j>=6-i && j<=4+i))) {
-					if(i%2!=0){
-						if(j%3==0) {
+					if(i%2!=0 && j%3==0){
 					System.out.print(ch++ + " ");
-					}  
-					else if(j%2==0) {
+				
+					 if(j%2==0) {
 						System.out.print(num++ + " ");
-					}
 					}
 					else {
-						if(j%3==0) {
-					System.out.print(ch++ + " ");
-					}  
-					else if(j%2==0) {
-						System.out.print(num++ + " ");
+						IO.print(ch++ +" ");
 					}
 					}
 				}
