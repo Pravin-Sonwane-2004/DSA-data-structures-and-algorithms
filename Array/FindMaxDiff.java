@@ -1,4 +1,6 @@
-// Q4. Write a program in java to find out the maximum difference between any two elements such that larger element appears after the smaller number.
+// Q4. Write a program in java to find out the maximum 
+// difference between any two elements such that larger element appears
+ // after the smaller number.
 	// Expected Output :
 	// The given array is : 7 9 5 6 13 2
 	// The elements which provide maximum difference is: 5, 13
