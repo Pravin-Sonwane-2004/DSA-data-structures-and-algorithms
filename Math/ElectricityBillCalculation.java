@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 /*
 Q29. Write a java program to input electricity unit charges & calculate total electricity bill according to the given condition
                 	For first 50 units Rs. 0.50/unit

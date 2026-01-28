@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 /*
 Q19. Write a Java program that reads a number and displays the cube.
  */

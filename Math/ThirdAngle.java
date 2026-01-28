@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 import java.util.Scanner;
 
 public class ThirdAngle {

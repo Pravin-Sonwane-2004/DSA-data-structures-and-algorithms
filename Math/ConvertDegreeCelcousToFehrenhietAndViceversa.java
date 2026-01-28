@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 
 public class ConvertDegreeCelcousToFehrenhietAndViceversa {
     public static void main(String [] args) {

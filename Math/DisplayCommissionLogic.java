@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 /*
 Q39. Calculate commission based on sales amount:
 Input: Sales amount

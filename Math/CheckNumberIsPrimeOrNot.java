@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 
 class CheckNumberIsPrimeOrNot {
 	public static void main(String [] args) {

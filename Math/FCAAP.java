@@ -1,3 +1,5 @@
+package Math;
+
 class FCAAP {
 	void main() {
 		int num = 11224456;

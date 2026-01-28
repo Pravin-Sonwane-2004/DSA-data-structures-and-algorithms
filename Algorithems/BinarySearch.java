@@ -3,14 +3,13 @@ class BinarySearch {
 		//perform binaey search operations
 		int [] arr = {1,2,3,4,5,6,7,8,9,10};
 		int target = 6;
-		IO.println(searchOperation(arr , target))
+		IO.println(searchOperation(arr , target));
 	}
 	public static int searchOperation(int arr [],int target) {
-		int target = 7;
 		int start = 0;
 		int end = arr.length-1 ;
 		
-		int mid =  (right+left) / 2;
+		int mid =  (start+end) / 2;
 		while(start <= end) {
 		if(arr[mid] == target)  {
 			return mid;

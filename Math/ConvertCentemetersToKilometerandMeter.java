@@ -1,4 +1,4 @@
-    package MathProblams;
+    package Math;
 /*
         Q6. Write a java program to enter length in centimeter and convert into meter and kilometer.
 */

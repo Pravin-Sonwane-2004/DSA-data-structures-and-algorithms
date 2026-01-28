@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 
 	class Practice {
 		public static void main(String [] args) {

@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 
 public class Leetcode258 {
     public int addDigits(int num) {

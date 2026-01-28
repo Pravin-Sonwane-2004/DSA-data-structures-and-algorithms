@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 /*
 Q23. Write a program to calculate the sum of the first and last digit
 of a number without using a loop.

@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 /*
 Q17. Write a Java program to convert seconds to hours, minutes and seconds.
 */

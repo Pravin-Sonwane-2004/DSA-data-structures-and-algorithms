@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 /*
 Q18. Write a Java program to convert days to years, month and week.
  */

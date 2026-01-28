@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 
 public class SimpleInterest {
     public static void main(String[] args) {

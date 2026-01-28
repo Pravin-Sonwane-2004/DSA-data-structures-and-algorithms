@@ -1,4 +1,4 @@
-package MathProblams;
+package Math;
 /*
 Q22. Write a java program to check whether a number is palindrome or not.
  */

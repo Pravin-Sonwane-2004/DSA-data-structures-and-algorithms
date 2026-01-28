@@ -26,14 +26,14 @@ class STACKAPP {
 	int pop () {
 	   if(top==-1) {
 			IO.println("Stack Is UnderFlow");
-			return;
+			return -1;
 	   }
-	   return stack[--top]
+	   return stack[--top];
 	}
 	int peek () {
 		 if(top==-1) {
 			IO.println("Stack Is UnderFlow");
-			return;
+			return -1;
 	   }
 	   return stack[top];
 	}
