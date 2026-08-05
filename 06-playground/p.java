@@ -1,6 +1,6 @@
-import java.util.*;
-class p extends Thread {
-	 void main() throws Exception{
+// import java.util.*;
+// class p extends Thread {
+	 // void main() throws Exception{
 		
 		// Thread t1 = new Thread(()->{
 			// for(int i=0;i<100;i++ ){
@@ -16,16 +16,16 @@ class p extends Thread {
 		// t1.join();
 		// t2.start();
 		// t2.join();
-		Thread t = new Thread(() -> {
-			System.out.println("Running...");
-		});
+		// Thread t = new Thread(() -> {
+			// System.out.println("Running...");
+		// });
 
-		t.start();
-		t.join();
+		// t.start();
+		// t.join();
 
-		System.out.println("Done");
-	 }
-}
+		// System.out.println("Done");
+	 // }
+// }
 
 
 // class A {
@@ -99,3 +99,113 @@ class p extends Thread {
 		// return e.id == this.id;
 	// }
 // }
+
+// class User {
+	// private static User i;
+	// public static User getUser()  {
+	// if(i == null) {
+		// i = new User();
+		// }
+	// return i;
+	// }
+// }
+
+// class Student {
+	
+// }
+// import java.util.*;
+// class p {
+	// void main () {
+		// User u = User.getUser();
+		// User u2 = User.getUser();
+		// int first = u.hashCode();
+		// int second = u2.hashCode();
+		
+		// IO.println(u==u2);
+		// IO.println(first + " " + second);
+		// List<Integer> list = new ArrayList<>(List.of(3,4,5,7));
+			
+		// Iterator<Integer> i = list.iterator();
+		// while(i.hasNext()) {
+			// IO.println(i.next());
+		// }
+	// }
+// }
+
+
+// class Node {
+	// int val;
+	// Node head;
+	
+	// Node(int val,Node head) {
+		// this.val = val;
+		// head.next = null;
+	// }
+// }
+// class p {
+	// void main() {
+		// Node head;
+		
+		// public void insertAtHead(int val) {
+        // Node newNode = new Node(val);
+        // newNode.next = head;
+        // head = newNode;
+		// }
+		// insertAtHead(10);
+		// insertAtHead(30);
+		// insertAtHead(58);
+		
+		// public void print(Node head) {
+			// while(head!= null) {
+				// IO.println(head.val);
+			// }
+		// }
+	// }
+// }
+
+class Node {
+    int val;
+    Node next; // Points to the next node, not head
+
+    // Constructor creates a standalone node
+    Node(int val) {
+        this.val = val;
+        this.next = null;
+    }
+}
+
+class p {
+    // Head must be an instance/class variable, not a local method variable
+    Node head; 
+
+    // Methods belong to the class body, not inside main()
+    public void insertAtHead(int val) {
+        Node newNode = new Node(val);
+        newNode.next = head;
+        head = newNode;
+    }
+
+    public void print(Node current) {
+        while (current != null) {
+            System.out.print(current.val + " -> ");
+            current = current.next; // Move to the next node to avoid an infinite loop
+        }
+        System.out.println("null");
+    }
+	
+	public Node reverse(Node head) {
+		Node curr = head;
+		while(curr != null) {
+			
+		}
+	}
+
+    // Execution driver method
+    void main() {
+        insertAtHead(10);
+        insertAtHead(30);
+        insertAtHead(58);
+        
+        print(head); // Output will be: 58 -> 30 -> 10 -> null
+    }
+}
